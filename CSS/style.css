@@ -1,0 +1,18 @@
+
+
+div > article {
+    background-color: cornflowerblue;
+}
+
+h2 + article {
+    background-color: yellow;
+}
+
+article ~ ul:hover {
+    background-color: rebeccapurple;
+}
+
+a[target="_blank"] {
+   color: darkblue;
+   text-decoration: none;
+}
